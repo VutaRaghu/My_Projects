@@ -1,1 +1,21 @@
+This project is the combination of both machine learning and Deep learning.
+It is an health care application which predicts the occurance of few diseases like Hearth diseases, Diabeties and also skin cancer.
 
+In order to create a user friendly application we desigined it in the form of web application.
+
+Technologies used are:
+Frontend :
+  HTML
+  CSS
+  Bootstrap
+ 
+Backend :
+  Flask--Python
+  Machine learning
+  Deep Learning
+  
+  
+ Steps to run this project:
+ 1.Install necessary libraries
+ 2.Run the index.py file in the command prompt which results an url of the localhost
+ 3.Open the url in the browser which will display the web application the project.
