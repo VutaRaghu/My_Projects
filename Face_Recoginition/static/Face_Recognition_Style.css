@@ -1,0 +1,71 @@
+
+body{
+	background: url(images/img1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-size: fill;
+	font-family: sans-serif;
+}
+.loginbox{
+	position:absolute;
+	top:50%;
+	left: 50%;
+	height:50%;
+	width: 40%;
+	border-radius: 20px 0;
+	padding: 5% 4%;
+	box-sizing: border-box;
+	transform: translate(-50%,-50%);
+	background-color: rgba(0, 0, 0, .4);
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, .6);
+}
+
+h2{
+	text-align: center;
+	color: #fff;
+}
+
+.loginbox p{
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: #fb6bb6;
+}
+.loginbox button
+{
+	width: 100%;
+	border: none;
+	outline: none;
+	background: transparent;
+	margin-bottom: 15px;
+	animation-name: unset;
+	text-align: center;
+	color: #fff;
+}
+.loginbox a{
+	width: 150%;
+	border: none;
+	outline: none;
+	background: transparent;
+	margin-bottom: 15px;
+	animation-name: unset;
+	text-align: center;
+	color: #fff;
+}
+.loginbox input[type="file"]
+{
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	font-size: 1rem;
+	/* height: 40px; 
+}
+
+.Skin_cancer button,
+.Skin_cancer a{
+	text-align: center;
+	color: #fff;
+
+}
+*/
