@@ -1,0 +1,80 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url("images/hddoctor3.jpg");
+	background-size: fill;
+	font-family: sans-serif;
+}
+.loginbox{
+	position:absolute;
+	top:130%;
+	left: 50%;
+	width: 40%;
+	
+	height: 234%;
+	border-radius: 20px 0;
+	padding: 4% 4%;
+	box-sizing: border-box;
+	transform: translate(-50%,-50%);
+	background-color: rgba(0, 0, 0, .4);
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, .6);
+}
+
+h2{
+	text-align: center;
+	color: #fff;
+}
+.loginbox p{
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: #fb6bb6;
+}
+.loginbox input,
+.loginbox button{
+	width: 100%;
+	border: none;
+	outline: none;
+	background: transparent;
+	margin-bottom: 15px;
+}
+.loginbox input[type="text"]
+{
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	font-size: 1rem;
+	/* height: 40px; */
+}
+.loginbox a{
+	margin: 10% 0%;
+	left: 50%;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+ 	transform: translate(-50%, -50%);
+	width: 100px;
+	height: 30px;
+	text-align:center;
+	line-height: 30px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: transparent;
+	background-size: 400%;
+	border-radius: 5px;
+	z-index: 1;
+
+}
+.submit{
+	border: 10px black;
+	color: white;
+
+}
+.result{
+	text-decoration-color: white;
+	color: white;
+}
