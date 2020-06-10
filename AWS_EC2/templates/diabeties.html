@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head class="heart">
+	<title>diabeties</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style-diabeties.css')}}">
+</head>
+<body>
+	<div class="loginbox">
+			<h2>DIABETIES</h2>
+			<form action="{{url_for('diabeties_insert')}}" method="POST" id="signup-form" class="signup-form">
+				<p>Number of Pregnancies</p>
+				<input type="text" name="Pregnancies" placeholder="Pregnancies">
+				<p>GlucosePlasma</p>
+				<input type="text" name="GlucosePlasma" placeholder="GlucosePlasma">
+				<p>BloodPressure</p>
+				<input type="text" name="BloodPressure" placeholder="BloodPressure">
+				<p>SkinThickness</p>
+				<input type="text" name="SkinThickness" placeholder="SkinThickness">
+				<p>Insulin</p>
+				<input type="text" name="Insulin" placeholder="Insulin">
+				<p>BMI</p>
+				<input type="text" name="BMI" placeholder="BMI">
+				<p>DiabetesPedigreeFunction</p>
+				<input type="text" name="DiabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction">
+				<p>Age</p>
+				<input type="text" name="Age" placeholder="Age">
+				<input type="Submit" class="submit">
+			</form>
+		</div>
+
+		<div class="result">
+			
+			<h1 align="center">
+				{{ data }}
+			</h1>
+		</div>
+</body>
+</html>

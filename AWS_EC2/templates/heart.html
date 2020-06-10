@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Heart_disease</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style-heart.css')}}">
+</head>
+<body>
+	<div class="loginbox">
+			<h2>HEART DISEASES</h2>
+			<form action="{{url_for('heart_insert')}}" method="POST" id="signup-form" class="signup-form">
+				<p>Male</p>
+				<input type="text"  placeholder="Male" name="male">
+				<p>Age</p>
+				<input type="text"  placeholder="Age" name="age">
+				<p>Current_smoker</p>
+				<input type="text"  placeholder="Current_smoker" name="current_smoker">
+				<p>Cigs_per_day</p>
+				<input type="text"  placeholder="Cigs_per_day" name="cigsperday">
+				<p>Bp_Meds</p>
+				<input type="text"  placeholder="Bp_Meds" name="bpmeds">
+				<p>Prevalent_scor</p>
+				<input type="text"  placeholder="Prevalent_scor" name="prevalentscor">
+				<p>Prevalent_hyp</p>
+				<input type="text"  placeholder="Prevalent_hyp" name="prevalentHyp">
+				<p>Diabetets</p>
+				<input type="text"  placeholder="Diabetets" name="diabetets">
+				<p>Totchol</p>
+				<input type="text"  placeholder="Totchol" name="totchol">
+				<p>Sys_bp</p>
+				<input type="text"  placeholder="Sys_bp" name="sysbp">
+				<p>Dia_bp</p>
+				<input type="text"  placeholder="Dia_bp" name="diaBP">
+				<p>Bmi</p>
+				<input type="text"  placeholder="Bmi" name="bmi">
+				<p>Heart_Rate</p>
+				<input type="text"  placeholder="Heart_Rate" name="heartrate">
+				<p>Glucose</p>
+				<input type="text"  placeholder="Glucose" name="glucose">
+				<input type="Submit" class="submit">
+			</form>
+		</div>
+
+		<div class="result">
+			
+			<h1 align="center" >
+				{{ data }}
+			</h1>
+		</div>
+</body>
+</html>

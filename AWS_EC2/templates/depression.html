@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head class>
+	<title>depression</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style-depression.css')}}">
+</head>
+<body>
+	<div class="loginbox">
+			<h2>DEPRESSION</h2>
+			<form action="{{url_for('depression_insert')}}" method="POST" id="signup-form" class="signup-form">
+				<p>Hospt</p>
+				<input type="text" name="Hospt" placeholder="Hospt">
+				<p>Age</p>
+				<input type="text" name="Age" placeholder="Age">
+				<p>Time</p>
+				<input type="text" name="Time" placeholder="Time">
+				<p>AcuteT</p>
+				<input type="text" name="AcuteT" placeholder="AcuteT">
+
+				<input class="submit" type="Submit" placeholder="SUBMIT"> 
+			</form>
+		</div>
+
+
+		<div class="result">
+			
+			<h1 align="center">
+				{{ data }}
+			</h1>
+		</div>
+</body>
+</html>
